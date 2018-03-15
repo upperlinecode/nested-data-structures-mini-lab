@@ -22,22 +22,27 @@ Make me a salami sandwich with swiss cheese on rye bread with mustard and mayo. 
 
 ### 2: Hashes in Hashes
 ```
-city_info = {:new_york => { :mayor => "Bill DeBlasio",
-							:population => 8337000,
-							:website => "http://www.nyc.gov"
-							},
-			 :los_angeles => { :mayor => "Eric Garcetti",
-							:population => 3884307,
-							:website => "http://www.lacity.org"
-							},
-			 :miami => { :mayor => "Tomás Regalado",
-							:population => 419777,
-							:website => "http://www.miamigov.com"
-							},
-			 :chicago => { :mayor => "Rahm Emanuel",
-							:population => 2695598,
-							:website => "http://www.cityofchicago.org/"
-							}
+city_info = {
+		:new_york => { 
+			:mayor => "Bill DeBlasio",
+			:population => 8337000,
+			:website => "http://www.nyc.gov"
+			},
+		:los_angeles => { 
+			:mayor => "Eric Garcetti",
+			:population => 3884307,
+			:website => "http://www.lacity.org"
+			},
+		:miami => { 
+			:mayor => "Tomás Regalado",
+			:population => 419777,
+			:website => "http://www.miamigov.com"
+			},
+		:chicago => { 
+			:mayor => "Rahm Emanuel",
+			:population => 2695598,
+			:website => "http://www.cityofchicago.org/"
+			}
 		}
 ```
 The `city_info` hash above is a series of nested hashes. What do I get returned if I ask for:
